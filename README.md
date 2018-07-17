@@ -3,11 +3,13 @@ Two modules for Magento 1.9. The Slider adds a flexslider in the homepage, confi
 ## Slider
 To configure the module, create a CMS block according to the Flexslider Html standard (just the ul part):
 Ex: 
+  ```html
   <ul class="slides">
     <li><img src="http://localhost/skin/frontend/rwd/default/images/logo.gif" /></li>
     <li><img src="https://www.paypalobjects.com/en_US/i/bnr/bnr_nowAccepting_150x60.gif" /></li>
     <li><img src="http://localhost/skin/frontend/rwd/default/images/logo.gif" /></li>
   </ul>
+```
 
 System >> Config >> General >> Design >> "Martinsl -- Flexslider Home Slider"
 

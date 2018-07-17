@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <cms_index_index>
+        <reference name="head">
+            <action method="addItem" ifconfig="design/settings/active_flexslider">
+                <type>skin_js</type>
+                <script>js/jquery_flexslider-min.js</script>
+            </action>
+            <action method="addItem" ifconfig="design/settings/active_flexslider">
+                <type>skin_css</type>
+                <script>css/flexslider.css</script>
+            </action>
+        </reference>
+
+        <block type="martinsl_design/slider" name="martinsl_slider" template="martinsl/slider.phtml" output="toHtml"/>
+
+        <reference name="content">
+            <action method="append" ifconfig="design/settings/active_flexslider"><block>martinsl_slider</block></action>
+        </reference>
+    </cms_index_index>
+</layout>

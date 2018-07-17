@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Martinsl_Address>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Martinsl_Address>
+    </modules>
+</config>

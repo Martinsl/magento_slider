@@ -1,0 +1,17 @@
+<div class="flexslider">
+    <?php echo $this->getLayout()
+        ->createBlock('cms/block')
+        ->setBlockId($this->cmsBlockId())
+        ->toHtml(); ?>
+</div>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        console.log(jQuery('.flexslider'));
+        jQuery('.flexslider').flexslider({
+            animation: "slide"
+        });
+    });
+</script>
+

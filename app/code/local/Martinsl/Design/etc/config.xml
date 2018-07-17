@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Martinsl_Design>
+            <version>0.1.0</version>
+        </Martinsl_Design>
+    </modules>
+    <global>
+        <helpers>
+            <martinsl_design>
+                <class>Martinsl_Design_Helper</class>
+            </martinsl_design>
+        </helpers>
+        <blocks>
+            <martinsl_design>
+                <class>Martinsl_Design_Block</class>
+            </martinsl_design>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <martinsl_design>
+                    <file>martinsl_design.xml</file>
+                </martinsl_design>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <design>
+            <settings>
+                <active_flexslider>1</active_flexslider>
+            </settings>
+        </design>
+    </default>
+</config>
